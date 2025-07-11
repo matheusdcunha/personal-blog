@@ -105,7 +105,7 @@ export default function HomePage() {
     <div className="flex flex-col gap-6">
       <p className="text-sm">
         Vascaíno fissurado em conhecimento. Atualmente trabalhando como Desenvolvedor Full Stack e me aperfeiçoando em práticas DevOps.
-        Adoro jogos competitivos, principalmente Magic The Gathering e Counter Strike, sou maluco em testar novos sistemas operacionais e ferramentas.
+        Adoro jogos competitivos, principalmente Magic The Gathering e Counter Strike, sou apaixonado em testar novos sistemas operacionais e ferramentas.
       </p>
       <div className="divide-y divide-zinc-400 overflow-hidden rounded ring-1 ring-zinc-400 dark:divide-zinc-500 dark:ring-zinc-500">
         {externalLinks.map((link: Link) => (
