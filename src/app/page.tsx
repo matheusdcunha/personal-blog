@@ -61,7 +61,7 @@ const externalLinks: Link[] = [
   {
     name: "Discord",
     description: "fale comigo",
-    url: "https://discord.gg/Matheus%20Cunha#7874",
+    url: "https://discord.gg/kVug85rS",
     icon: <SiDiscord className="fill-[#5865F2] dark:fill-zinc-200" />,
   },
   // {
