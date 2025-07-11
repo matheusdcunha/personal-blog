@@ -15,7 +15,7 @@ const projects: Project[] = [
   {
   name: "Pet Hand",
   description:
-    "API para conectar organizações de adoção a pessoas interessadas em adotar. ",
+    "API para conectar organizações de adoção a pessoas interessadas em adotar.",
   imageUrl: "/projects/pethand.png",
   githubUrl: "https://github.com/matheusdcunha/pet-hand",
   technologies: (
