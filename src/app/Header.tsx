@@ -44,7 +44,7 @@ export default function Header() {
     <header className="mx-auto max-w-prose py-8 max-sm:pt-4">
       <nav className="flex items-center justify-between max-sm:flex-col max-sm:gap-6">
         <Link
-          className={`group relative -m-12 -my-2 -mr-4 flex items-center rounded py-2 pl-12 pr-4 ${isHome ? "ring-0" : "ring-1"} ring-sky-500 ring-opacity-0 transition-all max-sm:text-center sm:hover:ring-opacity-100 dark:ring-sky-600 dark:ring-opacity-0`}
+          className={`group relative -m-12 -my-2 -mr-4 flex items-center rounded py-2 pl-12 pr-4 ${isHome ? "ring-0" : "ring-1"} ring-zinc-800 ring-opacity-0 transition-all max-sm:text-center sm:hover:ring-opacity-100 fill-zinc-300 dark:ring-opacity-0`}
           href="/"
           aria-label="Back to home"
         >
@@ -54,9 +54,9 @@ export default function Header() {
             <ChevronLeft strokeWidth={1.4} />
           </div>
           <div className="flex flex-col max-sm:items-center">
-            Luke Berry
+            Matheus da Cunha
             <span className="text-zinc-500 dark:text-zinc-400">
-              Software Engineer
+              Full Stack Developer
             </span>
           </div>
         </Link>
@@ -69,7 +69,7 @@ export default function Header() {
             {isDarkMode ? (
               <Moon
                 strokeWidth={1.4}
-                className="size-5 fill-gray-700 transition-all"
+                className="size-5 fill-blue-700 transition-all sm:hover:rotate-12"
               />
             ) : (
               <Sun
@@ -79,39 +79,39 @@ export default function Header() {
             )}
           </button>
           <Link
-            className="group relative rounded px-2 py-px ring-1 ring-sky-500 ring-opacity-0 transition-all sm:hover:ring-opacity-100 dark:ring-sky-600 dark:ring-opacity-0"
+            className="group relative rounded px-2 py-px ring-1 ring-zinc-800 ring-opacity-0 transition-all sm:hover:ring-opacity-100 fill-zinc-300 dark:ring-opacity-0"
             href="/projects"
             aria-label="View projects"
             aria-current={path === "/projects" ? "page" : undefined}
           >
-            /projects
+            /projetos
             <Triangle
               aria-hidden="true"
-              className="absolute left-1/2 mt-1 hidden size-2 fill-sky-500 text-zinc-800 group-aria-[current=page]:block dark:fill-sky-600 dark:text-transparent"
+              className="absolute left-1/2 mt-1 hidden size-2 fill-zinc-800 text-zinc-800 group-aria-[current=page]:block dark:fill-zinc-300 dark:text-transparent"
             />
           </Link>
           <Link
-            className="group relative rounded px-2 py-px ring-1 ring-sky-500 ring-opacity-0 transition-all sm:hover:ring-opacity-100 dark:ring-sky-600 dark:ring-opacity-0"
+            className="group relative rounded px-2 py-px ring-1 ring-zinc-800 ring-opacity-0 transition-all sm:hover:ring-opacity-100 fill-zinc-300 dark:ring-opacity-0"
             href="/articles"
             aria-label="View articles"
             aria-current={path.startsWith("/articles") ? "page" : undefined}
           >
-            /articles
+            /artigos
             <Triangle
               aria-hidden="true"
-              className="absolute left-1/2 mt-1 hidden size-2 fill-sky-500 text-zinc-800 group-aria-[current=page]:block dark:fill-sky-600 dark:text-transparent"
+              className="absolute left-1/2 mt-1 hidden size-2 fill-zinc-800 text-zinc-800 group-aria-[current=page]:block dark:fill-zinc-300 dark:text-transparent"
             />
           </Link>
           <Link
-            className="group relative rounded px-2 py-px ring-1 ring-sky-500 ring-opacity-0 transition-all sm:hover:ring-opacity-100 dark:ring-sky-600 dark:ring-opacity-0"
+            className="group relative rounded px-2 py-px ring-1 ring-zinc-800 ring-opacity-0 transition-all sm:hover:ring-opacity-100 fill-zinc-100 dark:ring-opacity-0"
             href="/about"
             aria-label="View about page"
             aria-current={path === "/about" ? "page" : undefined}
           >
-            /about
+            /sobre
             <Triangle
               aria-hidden="true"
-              className="absolute left-1/2 mt-1 hidden size-2 fill-sky-500 text-zinc-800 group-aria-[current=page]:block dark:fill-sky-600 dark:text-transparent"
+              className="absolute left-1/2 mt-1 hidden size-2 fill-zinc-800 text-zinc-800 group-aria-[current=page]:block dark:fill-zinc-300 dark:text-transparent"
             />
           </Link>
         </div>

@@ -2,9 +2,9 @@ export default function AboutPage() {
   return (
     <>
       <h1 className="mb-16 mt-4 text-center text-5xl max-sm:text-4xl">
-        About me
+        Sobre
       </h1>
-      <article>
+      {/* <article>
         <p>
           I was born in São Paulo and moved to{" "}
           <a href="https://en.wikipedia.org/wiki/Florian%C3%B3polis">
@@ -84,6 +84,9 @@ export default function AboutPage() {
           <br />
           Luke
         </p>
+      </article> */}
+      <article>
+        Em progresso ...
       </article>
     </>
   );
