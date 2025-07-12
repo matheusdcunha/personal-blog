@@ -4,89 +4,69 @@ export default function AboutPage() {
       <h1 className="mb-16 mt-4 text-center text-5xl max-sm:text-4xl">
         Sobre
       </h1>
-      {/* <article>
-        <p>
-          I was born in São Paulo and moved to{" "}
-          <a href="https://en.wikipedia.org/wiki/Florian%C3%B3polis">
-            Florianópolis
-          </a>{" "}
-          as a 10 year old kid. I fell in love with the nature, sport and music
-          culture of the Magical Island.
-        </p>
-        <p>
-          In the next decade, I{" "}
-          <a href="https://open.spotify.com/artist/4ymHKBTThfeOL114lwCWPQ?si=c30897c35e404259">
-            became a singer-songwriter
-          </a>
-          , got a Karate blue belt, won back-to-back Carnavals with a samba
-          school and wasted thousands of hours playing League of Legends.
-        </p>
-        <p>
-          Then I studied Economics at{" "}
-          <a href="https://en.wikipedia.org/wiki/Federal_University_of_Santa_Catarina">
-            Federal University of Santa Catarina
-          </a>
-          , mostly for my love for History and Math. I learned a lot of
-          Politics, Statistics and Macroeconomics.
-        </p>
-        <p>
-          But I&apos;d spent too long studying models that weren&apos;t
-          applicable in real-life. I felt disconnected from my studies which led
-          to me dropping out after 2 years.
-        </p>
-        <p>
-          Then came my first contact with programming: as a Data Analyst at a
-          Tech startup. We used Microsoft Excel and Power BI to generate our
-          reports.
-        </p>
-        <p>
-          With millions of data entries, it wasn&apos;t long until my Dell
-          notebook became unusably slow. This led me to learn Python and Pandas
-          to better deal with datasets, as well as Selenium and pyautogui.
-        </p>
-        <p>
-          I&apos;ve always been obsessed with user interfaces. My friends
-          couldn&apos;t bear me pointing out broken buttons and ugly websites
-          all the time.
-        </p>
-        <p>
-          When I found out what HTML was, I did a deep dive into the Frontend. I
-          completed FreeCodeCamp&apos;s{" "}
-          <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">
-            Responsive Web Design
-          </a>{" "}
-          and swiftly progressed to Javascript and React soon after.
-        </p>
-        <p>
-          I became more active within the Brazilian Dev community, sharing
-          quirky UI bugs and building my projects in public such as{" "}
-          <a href="https://phived.com">phived</a> and{" "}
-          <a href="https://css2wind.com">css2wind</a>. I collaborated with
-          hundreds of developers and contributed a lot to Open Source.
-        </p>
-        <p>
-          In 2024, I traveled to Torino, Italy to visit my dad. My life flipped
-          upside down and I ended up living in Málaga for a while. After I{" "}
-          <a href="/articles/how-not-to-get-a-job-in-spain">
-            failed to get a job
-          </a>
-          , I moved to the UK and landed a job in London, where I currently
-          live.
-        </p>
-        <p>
-          If you want to get in touch, send me a DM on{" "}
-          <a href="https://x.com/lukeberrypi">X</a> or an email{" "}
-          <a href="mailto:lukeberrypi@gmail.com">lukeberrypi@gmail.com</a>.
-        </p>
-        <p>Smile, you&apos;re alive :)</p>
-        <p>
-          Best,
-          <br />
-          Luke
-        </p>
-      </article> */}
       <article>
-        Em progresso ...
+        <p>
+          Nascido e criado em São Gonçalo, no Rio de Janeiro, desde pequeno sou muito conectado com tecnologia e videogames, tendo ganhado meu primeiro computador aos 6 anos de idade.
+        </p>
+        <p>
+          Tive uma infância e uma adolescência mergulhadas em jogos, computadores e futebol. Desde cedo, a curiosidade em utilizar diversos sistemas operacionais era muito presente, o que me levava a deixar o computador de casa com uma cara nova a cada semana.
+        </p>
+
+        <p>
+          Quando criança, uma das profissões com que eu sonhava era a de cientista.
+        </p>
+        <p>
+          Chegou a época do vestibular e, por uma antiga paixão, acabei ingressando no curso de licenciatura em História na {" "}
+          <a
+            href="https://pt.wikipedia.org/wiki/Universidade_do_Estado_do_Rio_de_Janeiro"
+            className="decoration-zinc-950"
+          >
+            Universidade do Estado do Rio de Janeiro (UERJ)
+          </a>
+          , foi uma experiência incrível, conheci pessoas geniais e encantadoras lá.
+        </p>
+        <p>
+          Fiquei 2 anos cursando História e em 2020 com a pandemia, não me via mais fazendo aquilo, foi então que decidi trancar o curso, com a intenção de voltar um dia.
+        </p>
+        <p>
+          Então, parado em casa e sem ter o que fazer, decidi começar a estudar programação como um hobby — e me apaixonei.
+        </p>
+        <p>
+          Comecei a fazer landing page e sites institucionais para conhecidos e familiares como uma forma de passar o tempo. Em 2022 decido que é isso que quero seguir como carreira e começo uma nova graduação em Ciência da Computação.
+        </p>
+        <p>
+          Com isso, a parte mais divertida para mim começou: compreender o núcleo e os fundamentos das coisas.
+        </p>
+        <p>
+          Agora, o pequeno Matheus — que adorava quando uma nova versão do Windows era lançada e corria para testá-la — está entendendo como toda aquela mágica que ele via é feita.
+        </p>
+        <p>
+          Atualmente, estou nos últimos semestres da graduação e trabalho como Desenvolvedor Full Stack.
+        </p>
+        <p>
+          Hoje, estou mais focado nos aspectos de arquitetura e infraestrutura do desenvolvimento. É essa a direção que desejo para minha carreira daqui para frente.
+        </p>
+        <p>
+          Se você quer bater um papo comigo me manda uma mensagem no{" "}
+          <a 
+          href="https://www.linkedin.com/in/matheusdcunha/"
+          className="decoration-zinc-950"
+          >Linkedin 
+          </a> ou um email{" "}
+          <a
+          href="mailto:contato@matheusdcunha.dev"
+          className="decoration-zinc-950"
+          >contato@matheusdcunha.dev
+          </a>.
+        </p>
+        <p>
+          🌊 Be like water, my friend 🌊
+        </p>
+        <p>
+          Abraços,
+          <br />
+          Matheus da Cunha
+        </p>
       </article>
     </>
   );

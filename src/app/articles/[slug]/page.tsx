@@ -21,13 +21,13 @@ export default async function ArticlePage({
     return (
       <div className="flex flex-col items-center justify-center gap-6 py-16">
         <h1 className="text-5xl max-sm:text-3xl">
-          This article doesn&apos;t exist.
+          Esse artigo não existe.
         </h1>
         <a
           href="/articles"
-          className="underline decoration-sky-500 underline-offset-4 dark:decoration-sky-600"
+          className="underline decoration-zinc-800 underline-offset-4 dark:decoration-zinc-100"
         >
-          Read something else
+          Leia outro.
         </a>
       </div>
     );
