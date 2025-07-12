@@ -9,7 +9,7 @@ import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: "Matheus da Cunha",
-  description: "Matheus da Cunha blog pessoal",
+  description: "O blog pessoal de Matheus da Cunha",
 };
 
 const karla = Karla({
